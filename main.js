@@ -192,7 +192,7 @@ btnpi.onclick = function(e) {
     main.push(Math.PI)
     num1.push(Math.PI)
 
-    result.innerText = Math.PI
+    result.innerText = num1.join("")
 
 }
 
@@ -200,7 +200,7 @@ btne.onclick = function(e) {
     main.push(Math.E)
     num1.push(Math.E)
 
-    result.innerText = Math.E
+    result.innerText = num1.join("")
 }
 
 btnlog.onclick = function(e) {
