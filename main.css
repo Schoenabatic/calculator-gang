@@ -1,0 +1,157 @@
+@font-face {
+    src: url(https://fonts.googleapis.com/css2?family=Genos&display=swap);
+    font-family: Font1;
+}
+
+.container {
+    display: flex;
+    background-color: grey;
+}
+
+body {
+    background-color: #2A3D45;
+    color: white;
+    font-family: Font1;
+}
+
+.visual {
+    display: flex;
+}
+
+
+/* .buttons:active {
+    background-color: #EF626C;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+} */
+
+.button1:active {
+    background-color: #EF626C;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.button2:active {
+    background-color: #DDC9B4;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.button3:active {
+    background-color: #169873;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.button4:active {
+    background-color: #58A4B0;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.button5:active {
+    background-color: #8E7DBE;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.button6:active {
+    background-color: #697A21;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.button7:active {
+    background-color: #8DAA91;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.button1 {
+    background-color: #EF626C;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 1.75cm;
+}
+
+.button2 {
+    background-color: #DDC9B4;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 1.75cm;
+}
+
+.button3 {
+    background-color: #169873;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 1.75cm;
+}
+
+.button4 {
+    background-color: #58A4B0;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 1.75cm;
+}
+
+.button5 {
+    background-color: #8E7DBE;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 1.75cm;
+}
+
+.button6 {
+    background-color: #697A21;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 1.75cm;
+}
+
+.button7 {
+    background-color: #8DAA91;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 1.75cm;
+}
+
+
+/* body {
+    ;
+} */
