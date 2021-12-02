@@ -23,6 +23,7 @@ const btncbrt = document.getElementById('buttoncbrt')
 const btnpi = document.getElementById('buttonpi')
 const btne = document.getElementById('buttone')
 const btnlog = document.getElementById('buttonlog')
+const btn1byx = document.getElementById('button1/x')
 
 const result = document.getElementById("res")
 const output = document.getElementById("outp")
@@ -213,6 +214,17 @@ btnlog.onclick = function(e) {
 
 }
 
+btn1byx.onclick = function(e) {
+    let byx = 1 / main
+
+    result.innerText = ("1/" + main)
+
+    main.push(byx)
+    num1.push(byx)
+
+    output.innerText = byx
+}
+
 btnrun.onclick = function(e) {
     //console.log(calc(num1))
     output.innerText = eval(main.join(""))
@@ -246,6 +258,10 @@ console.log(num1.join(""))
 //calc(num1)
 alert('nice dude')
     // console.log(bro)
+
+if (num1.join("") == 69) {
+    alert("nice")
+}
 
 // console.log(Math.sqrt(2))
 console.log(Math.log(2))
