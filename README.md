@@ -1,2 +1,2 @@
 ﻿# calculator-gang
-online here hehe: https://calculator-gang.netlify.app
+online here: https://calculator-gang.netlify.app
